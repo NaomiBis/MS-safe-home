@@ -5,7 +5,7 @@ $serviceCode = $_POST["serviceCode"];
 $text = $_POST["text"];
 //This is the first menu screen
 if ( $text == "" ) {
-$response  = "CON  ";Welcome to Imbokodo get assistance or learn more";
+$response  = "CON Welcome to Imbokodo get assistance or learn more";
 $response .= "1. Enter 1 to continue";
 }
 // Menu for a user who selects '1' from the first menu
